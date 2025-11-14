@@ -410,8 +410,7 @@ class CoilSnakeGui(object):
 
         if rom and project:
             confirm = tkinter.messagebox.askquestion(self.guistrings.get("are_you_sure"),
-                                               self.guistrings.get("decomp_script_prompt"),
-                                               self.guistrings.get("decomp_script_prompt_2"),
+                                               self.guistrings.get("decomp_script_prompt")
                                                + self.guistrings.get("backup_info"),
                                                icon='warning')
             if confirm != "yes":
